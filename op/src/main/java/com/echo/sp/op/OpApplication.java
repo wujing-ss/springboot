@@ -7,13 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class OpApplication {
 
     public static void main(String[] args) {
-        System.out.println("hello");
-        StackTraceElement[] stackTrace = new RuntimeException().getStackTrace();
-        for ( StackTraceElement aaa :stackTrace
-             ) {
-            System.out.println(aaa.getMethodName());
 
-        }
         SpringApplication.run(OpApplication.class, args);
     }
 
